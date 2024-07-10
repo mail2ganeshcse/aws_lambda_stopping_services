@@ -114,7 +114,7 @@ def lambda_handler(event, context):
 
     except Exception as e:
         response_message += f"An error occurred: {str(e)}\n"
-        subject = "GB UAT infra start failed"
+        subject = "UAT infra start failed"
 
     print(response_message)
 
